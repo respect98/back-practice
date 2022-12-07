@@ -1,10 +1,6 @@
-package com.multicamp;
+package day02;
 import java.sql.Date;
 //VO(Value Object), DTO(Data Transfer Object)
-//VO(Value Object) 값 오브젝트로써 값을 위해 쓰입니다. read-Only 특징(사용하는 도중에 변경 불가능하며 
-//오직 읽기만 가능)을 가집니다. DTO와 유사하지만 DTO는 setter를 가지고 있어 값이 변할 수 있습니다.
-//DTO(Data Transfer Object) 는 계층 간 데이터 교환을 하기 위해 사용하는 객체로,
-//DTO는 로직을 가지지 않는 순수한 데이터 객체(getter & setter 만 가진 클래스)입니다.
 //domain객체 
 //db table의 record ===> 클래스로 옮겨 구성
 public class MemoVO {
